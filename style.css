@@ -1,0 +1,18 @@
+header {
+    border-bottom: 1px white solid;
+}
+
+
+.icons {
+    width: 2em;
+}
+
+li {
+    margin: 10px;
+}
+
+#brandImage {
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+}
