@@ -5,6 +5,7 @@ header {
 
 .icons {
     width: 2em;
+    transition: width 0.2s ease-in;
 }
 
 li {
@@ -15,4 +16,8 @@ li {
     transition-property: all;
     transition-timing-function: ease-in;
     transition-duration: 0.5s;
+}
+
+.icons:hover {
+    width: 2.3em;
 }
