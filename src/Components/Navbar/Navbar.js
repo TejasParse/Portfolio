@@ -17,7 +17,7 @@ const Navbar = (props)=>{
                 {/* <h1 className="text-3xl">
                     Tejas Ajay Parse
                 </h1> */}
-                <div className="border-2 border-white p-2 m-12 rounded-full aspect-square bg-light-brown-bg">
+                <div className="border-2 border-white p-2 mb-6 m-12 rounded-full aspect-square bg-light-brown-bg">
                     <img src={resume_imge} alt="Profile" className="rounded-full aspect-square" />
                 </div>
 
@@ -34,12 +34,15 @@ const Navbar = (props)=>{
                     My Projects
                 </Link>
                 <Link to={"/Skills"} className={`${location1.pathname === "/Skills" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
-                    Skills
+                    Skills & Achievements
                 </Link>
-                <Link to={"/Achievements"} className={`${location1.pathname === "/Achievements" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
-                    Achievements
+                <Link to={"/Leadership"} className={`${location1.pathname === "/Leadership" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
+                    Leadership Positions
                 </Link>
                 
+                {/* <Link to={"/SpeedCubing"} className={`${location1.pathname === "/SpeedCubing" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
+                    Speed Cubing
+                </Link> */}
                 <Link to={"/Resume"} className={`${location1.pathname === "/Resume" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
                     Resume
                 </Link>

@@ -3,10 +3,11 @@ import { Routes, Route } from "react-router-dom";
 import Education from "./Education/Education";
 import Skills from "./Skills/Skills";
 import Experience from "./Experience/Experience";
-import Achievements from "./Achievements/Achievements";
 import Projects from "./Projects/Projects";
 import AboutMe from "./AboutMe/AboutMe";
 import Resume from "./Resume/Resume";
+import Leadership from "./Leadership/Leadership";
+import SpeedCubing from "./SpeedCubing/SpeedCubing";
 
 const MainApp = (props)=>{
 
@@ -21,8 +22,9 @@ const MainApp = (props)=>{
             <Route index element={<Education />} path="/Education" />
             <Route index element={<Skills />} path="/Skills" />
             <Route index element={<Experience />} path="/Experience" />
-            <Route index element={<Achievements />} path="/Achievements" />
             <Route index element={<Projects />} path="/Projects" />
+            <Route index element={<Leadership />} path="/Leadership" />
+            <Route index element={<SpeedCubing />} path="/SpeedCubing" />
             <Route index element={<Resume />} path="/Resume" />
           </Routes>
         </div>
