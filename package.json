@@ -1,7 +1,6 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://TejasParse.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",

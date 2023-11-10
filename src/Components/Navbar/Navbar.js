@@ -18,29 +18,29 @@ const Navbar = (props)=>{
                     Tejas Ajay Parse
                 </h1> */}
                 <div className="border-2 border-white p-2 m-12 rounded-full aspect-square bg-light-brown-bg">
-                    <img src={resume_imge} alt="Profile Picture" className="rounded-full aspect-square" />
+                    <img src={resume_imge} alt="Profile" className="rounded-full aspect-square" />
                 </div>
 
-                <Link to={"/"} className={`${location1.pathname == "/" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
+                <Link to={"/"} className={`${location1.pathname === "/" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
                     About Me
                 </Link>
-                <Link to={"/Education"} className={`${location1.pathname == "/Education" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
+                <Link to={"/Education"} className={`${location1.pathname === "/Education" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
                     Education
                 </Link>
-                <Link to={"/Experience"} className={`${location1.pathname == "/Experience" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
+                <Link to={"/Experience"} className={`${location1.pathname === "/Experience" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
                     Experience
                 </Link>
-                <Link to={"/Projects"} className={`${location1.pathname == "/Projects" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
+                <Link to={"/Projects"} className={`${location1.pathname === "/Projects" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
                     My Projects
                 </Link>
-                <Link to={"/Skills"} className={`${location1.pathname == "/Skills" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
+                <Link to={"/Skills"} className={`${location1.pathname === "/Skills" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
                     Skills
                 </Link>
-                <Link to={"/Achievements"} className={`${location1.pathname == "/Achievements" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
+                <Link to={"/Achievements"} className={`${location1.pathname === "/Achievements" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
                     Achievements
                 </Link>
                 
-                <Link to={"/Resume"} className={`${location1.pathname == "/Resume" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
+                <Link to={"/Resume"} className={`${location1.pathname === "/Resume" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
                     Resume
                 </Link>
 
