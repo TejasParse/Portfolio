@@ -18,7 +18,7 @@ const Experience = () => {
               Full Stack Dev Intern @ Settyl Tech Private Ltd
             </div>
           </div>
-          <div className="text-xl text-black">May 2023 - Sept 2023</div>
+          <div className="text-xl text-black font-semibold">May 2023 - Sept 2023</div>
         </div>
         <div className="p-4 font-md">
           <ul className="list-disc">
@@ -44,7 +44,7 @@ const Experience = () => {
               Software Development Intern @ Appscms Technologies
             </div>
           </div>
-          <div className="text-xl text-black">July 2022 - Nov 2022</div>
+          <div className="text-xl text-black font-semibold">July 2022 - Nov 2022</div>
         </div>
         <div className="p-4 font-md">
           <ul className="list-disc">

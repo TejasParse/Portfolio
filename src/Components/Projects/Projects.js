@@ -159,11 +159,9 @@ const Projects = () => {
           </div>
           <div className="p-4 font-md">
             <ul className="list-disc">
-              <li>Trained several locally accelerated GPU CNN models.</li>
+              <li>A Tic Tac Toe android application using Java with multiple difficulty level Bot</li>
               <li>
-                These models were boosted by a robust Transfer Learning
-                technique that utilized the features of a Multilingual OCR
-                dataset that achieved 99.70% testing accuracy.
+                Used Min-Max(AI) Algorithm to predict the next optimal move for the bot.
               </li>
             </ul>
           </div>
