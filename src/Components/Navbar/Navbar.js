@@ -1,5 +1,6 @@
 import { useLocation, Link } from "react-router-dom";
 import resume_imge from "./Image.jpg";
+import cubing_image from "./Profile.jpg";
 
 const Navbar = (props)=>{
 
@@ -18,7 +19,9 @@ const Navbar = (props)=>{
                     Tejas Ajay Parse
                 </h1> */}
                 <div className="border-2 border-white p-2 mb-6 m-12 rounded-full aspect-square bg-light-brown-bg">
-                    <img src={resume_imge} alt="Profile" className="rounded-full aspect-square" />
+                    { location1.pathname === "/SpeedCubing" && <img src={cubing_image} alt="Profile" className="rounded-full aspect-square" /> }
+                    { location1.pathname !== "/SpeedCubing" && <img src={resume_imge} alt="Profile" className="rounded-full aspect-square" /> }
+                    
                 </div>
 
                 <Link to={"/"} className={`${location1.pathname === "/" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
@@ -40,11 +43,11 @@ const Navbar = (props)=>{
                     Leadership Positions
                 </Link>
                 
-                {/* <Link to={"/SpeedCubing"} className={`${location1.pathname === "/SpeedCubing" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
-                    Speed Cubing
-                </Link> */}
                 <Link to={"/Resume"} className={`${location1.pathname === "/Resume" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
                     Resume
+                </Link>
+                <Link to={"/SpeedCubing"} className={`${location1.pathname === "/SpeedCubing" ? selectedClass : notSelectedClass}`} style={{textDecoration:"none"}}>
+                    Speed Cubing
                 </Link>
 
             </ul>

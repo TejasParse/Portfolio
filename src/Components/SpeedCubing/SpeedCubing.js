@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+
+import Profile from "./images/Profile.jpg";
+import PR from "./images/ChinaPR.jpg";
 
 const SpeedCubing = () => {
   return (
@@ -10,7 +13,8 @@ const SpeedCubing = () => {
           </h1>
         </div>
       </div>
-      Under Development...
+
+      <img src={PR} alt="" />
     </div>
   );
 }
