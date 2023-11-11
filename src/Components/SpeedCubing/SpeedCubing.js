@@ -11,6 +11,9 @@ const SpeedCubing = () => {
           <h1 className="text-3xl font-bold text-light-brown-bg">
             Speed Cubing
           </h1>
+          <div className='text-2xl font-semibold'>
+            Sept 2017 - Present
+          </div>
         </div>
       </div>
 
