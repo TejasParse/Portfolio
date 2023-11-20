@@ -43,11 +43,14 @@ const Projects = () => {
           </div>
           <div className="p-4 font-md">
             <ul className="list-disc">
-              <li>Trained several locally accelerated GPU CNN models.</li>
               <li>
-                These models were boosted by a robust Transfer Learning
-                technique that utilized the features of a Multilingual OCR
-                dataset that achieved 99.70% testing accuracy.
+                Trained several locally{" "}
+                <span className="font-bold">accelerated GPU CNN</span> models.
+              </li>
+              <li>
+                These models were boosted by a robust technique that utilized
+                the features of a Multilingual OCR dataset that achieved{" "}
+                <span className="font-bold">99.70%</span> testing accuracy.
               </li>
             </ul>
           </div>
@@ -92,14 +95,17 @@ const Projects = () => {
           <div className="p-4 font-md">
             <ul className="list-disc">
               <li>
-                Have worked on the company’s ReactJs micro frontend architecture
-                and developed several modules, including the inventory
-                management module of their supply chain suite.
+                Have worked on the company’s{" "}
+                <span className="font-bold">ReactJs</span> micro frontend
+                architecture and developed several modules, including the
+                inventory management module of their supply chain suite.
               </li>
               <li>
                 Developed 20+ RESTful APIs in their backend microservice
-                architecture in Nodejs and created several MongoDB triggers and
-                Azure Functions while working closely with the Founder.
+                architecture in <span className="font-bold">Nodejs</span> and
+                created several <span className="font-bold">MongoDB</span>{" "}
+                triggers and <span className="font-bold">Azure</span> Functions
+                while working closely with the Founder.
               </li>
             </ul>
           </div>
@@ -121,12 +127,15 @@ const Projects = () => {
           <div className="p-4 font-md">
             <ul className="list-disc">
               <li>
-                An effective Search Information Retrieval System, that utilized
-                BM25 scoring algorithms to rank resumes based on search queries.
+                An effective Search Information Retrieval and Natural Language
+                Processing System, that utilized BM25 scoring algorithms to rank
+                resumes based on search queries.
               </li>
               <li>
-                The client was made using React while Django was used to create
-                an API that fetches documents.
+                The client was made using{" "}
+                <span className="font-bold">ReactJs</span> while{" "}
+                <span className="font-bold">Django</span> was used to create an
+                API that fetches documents.
               </li>
             </ul>
           </div>
