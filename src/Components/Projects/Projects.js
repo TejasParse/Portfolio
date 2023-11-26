@@ -95,17 +95,18 @@ const Projects = () => {
           <div className="p-4 font-md">
             <ul className="list-disc">
               <li>
-                Have worked on the company’s{" "}
-                <span className="font-bold">ReactJs</span> micro frontend
-                architecture and developed several modules, including the
-                inventory management module of their supply chain suite.
+                A web application where one can find animals to adopt and
+                simultaneously upload their pets and apply for the rescue of
+                stray animals through the application.
               </li>
               <li>
-                Developed 20+ RESTful APIs in their backend microservice
-                architecture in <span className="font-bold">Nodejs</span> and
-                created several <span className="font-bold">MongoDB</span>{" "}
-                triggers and <span className="font-bold">Azure</span> Functions
-                while working closely with the Founder.
+                Developed 100% <span className="font-bold">RESTful API</span>{" "}
+                using <span className="font-bold">Express.JS</span>
+                with <span className="font-bold">MongoDB</span> as a persistence
+                layer while utilizing <span className="font-bold">ReactJS</span>
+                on the front end. It follows the MVC Model and uses{" "}
+                <span className="font-bold">Redis</span> for Caching which also
+                is CICD pipelined.
               </li>
             </ul>
           </div>
