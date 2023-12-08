@@ -55,6 +55,41 @@ const Projects = () => {
             </ul>
           </div>
         </div>
+        <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2 mb-6">
+          <div className="flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
+            <div className="text-xl font-bold">
+              Pong DQN RL Agent
+            </div>
+            <div className="text-md text-black">
+              <a
+                href="https://youtu.be/HR3dgTOkfIU"
+                target="_blank"
+              >
+                <button className="text-white bg-red-600 p-2 py-1 rounded-md ms-2">
+                  Demo
+                </button>
+              </a>
+              <a
+                href="https://github.com/TejasParse/pong-rl-agent"
+                target="_blank"
+              >
+                <button className="text-white bg-slate-700 p-2 py-1 rounded-md ms-2">
+                  Github
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="p-4 font-md">
+            <ul className="list-disc">
+              <li>
+                Trained a Reinforcement Learning Pong Agent to play against computer.
+              </li>
+              <li>
+                DQN predicts the action. DQN is based on tensorflow keras. Environment is taken from built-in GYM environments
+              </li>
+            </ul>
+          </div>
+        </div>
       </>
     );
   }
