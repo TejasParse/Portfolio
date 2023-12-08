@@ -1,6 +1,6 @@
 import { useLocation, Link } from "react-router-dom";
 import resume_imge from "./Image.jpg";
-import cubing_image from "./Profile.jpg";
+import cubing_image from "./cubing.png";
 
 const Navbar = (props)=>{
 
