@@ -16,7 +16,8 @@ const AboutMe = (props) => {
       <div className="text-lg mb-1">
         I am a passionate Machine Learning and Web Development Enthusiast,
         currently pursuing my B.Tech in Computer Science with specialization in
-        AI & ML from IIIT Sri City with a CGPA of <b>9.33</b>{" "}
+        AI & ML from IIIT Sri City with a CGPA of <b>9.33</b>. Our team Git Clone
+        won the <b>Smart India Hackathon 2023</b> held by <b>Ministry of Education.</b>{" "}
       </div>
       <div className="text-lg mb-1">
         During my B.Tech I have worked on several projects in Web Development

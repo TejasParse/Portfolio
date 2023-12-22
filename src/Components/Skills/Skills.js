@@ -51,6 +51,9 @@ const Skills = () => {
         </div>
         <ul className="list-disc px-4 py-2 font-md">
           <li>
+            Winner of Smart India Hackathon 2023 organized by the Ministry of Education held across India. 
+          </li>
+          <li>
             Completed Google Hashcode 2022 with a score of 1071918 pts and a
             global rank of 3425 (AIR 1456).
           </li>

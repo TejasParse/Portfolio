@@ -148,14 +148,22 @@ const Projects = () => {
         </div>
         <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2">
           <div className="flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
-            <div className="text-xl font-bold">Resume Matcher</div>
+            <div className="text-xl font-bold">Farmer Producer Organization (FPO) Portal</div>
             <div className="text-md text-black">
               <a
-                href="https://github.com/TejasParse/resume-matcher"
+                href="https://github.com/TejasParse/git-clone-frontend-sih"
                 target="_blank"
               >
                 <button className="text-white bg-slate-700 p-2 py-1 rounded-md ms-2">
-                  Github
+                  Frontend
+                </button>
+              </a>
+              <a
+                href="https://github.com/TejasParse/git-clone-backend-sih"
+                target="_blank"
+              >
+                <button className="text-white bg-slate-700 p-2 py-1 rounded-md ms-2">
+                  Backend
                 </button>
               </a>
             </div>
@@ -163,15 +171,10 @@ const Projects = () => {
           <div className="p-4 font-md">
             <ul className="list-disc">
               <li>
-                An effective Search Information Retrieval and Natural Language
-                Processing System, that utilized BM25 scoring algorithms to rank
-                resumes based on search queries.
+                Contributed to the <b>Winning Team</b> at <b>Smart India Hackathon 2023</b>, actively involved in developing an analytical portal for comparison of FPOs, coupled with a marketplace for income diversification.
               </li>
               <li>
-                The client was made using{" "}
-                <span className="font-bold">ReactJs</span> while{" "}
-                <span className="font-bold">Django</span> was used to create an
-                API that fetches documents.
+              Implemented a <b>Smart Voice-based Multilingual NLP Chatbot</b> using ReactJs (Frontend) and Nodejs (Backend), alongside Dialogflow for Text Chatbot, and MongoDB for efficient data management.
               </li>
             </ul>
           </div>
@@ -221,17 +224,17 @@ const Projects = () => {
         <div className="flex flex-row justify-between">
           <h1 className="text-3xl font-bold text-light-brown-bg">Projects</h1>
           <div className="bg-brown-bg px-2 rounded-lg flex flex-row justify-center content-center">
-              <button className={`py-1 px-2 my-2 rounded-s-lg font-medium ${projectType=="Web" ? selectedStyle : notSelectedStyle}`} onClick={()=> setprojectType("Web")}>Web</button>
-              <button className={`py-1 px-2 my-2 font-medium ${projectType=="ML" ? selectedStyle : notSelectedStyle}`} onClick={()=> setprojectType("ML")}>ML</button>
-              <button className={`py-1 px-2 my-2 rounded-e-lg font-medium ${projectType=="App" ? selectedStyle : notSelectedStyle}`} onClick={()=> setprojectType("App")}>App</button>
+            <button className={`py-1 px-2 my-2 rounded-s-lg font-medium ${projectType == "Web" ? selectedStyle : notSelectedStyle}`} onClick={() => setprojectType("Web")}>Web</button>
+            <button className={`py-1 px-2 my-2 font-medium ${projectType == "ML" ? selectedStyle : notSelectedStyle}`} onClick={() => setprojectType("ML")}>ML</button>
+            <button className={`py-1 px-2 my-2 rounded-e-lg font-medium ${projectType == "App" ? selectedStyle : notSelectedStyle}`} onClick={() => setprojectType("App")}>App</button>
           </div>
         </div>
       </div>
 
-      { projectType=="ML" && <MlProjects/> }
-      { projectType=="Web" && <WebProjects/>  }
-      { projectType=="App" && <AppProjects/>  }
-      
+      {projectType == "ML" && <MlProjects />}
+      {projectType == "Web" && <WebProjects />}
+      {projectType == "App" && <AppProjects />}
+
     </div>
   );
 }
