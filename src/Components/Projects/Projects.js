@@ -151,6 +151,14 @@ const Projects = () => {
             <div className="text-xl font-bold">Farmer Producer Organization (FPO) Portal</div>
             <div className="text-md text-black">
               <a
+                href="https://git-clone-frontend.vercel.app/"
+                target="_blank"
+              >
+                <button className="text-white bg-blue-600 p-2 py-1 rounded-md">
+                  Website
+                </button>
+              </a>
+              <a
                 href="https://github.com/TejasParse/git-clone-frontend-sih"
                 target="_blank"
               >
