@@ -85,7 +85,7 @@ const Projects = () => {
   let getType = searchParams.get("q");
   console.log(getType, "Will it work now");
 
-  if(getType!=="Web" || getType!=="ML" || getType!=="App" || getType==null) {
+  if(!(getType=="Web" || getType=="ML" || getType=="App") || getType==null) {
     getType="Web";
   }
 
