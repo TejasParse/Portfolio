@@ -1,0 +1,142 @@
+{
+    "Web": [
+        {
+            "title": "Farmers Producer Organization(FPO) Portal (SIH'23 &#127942;)!",
+            "links": [
+                {
+                    "url": "https://git-clone-frontend.vercel.app/",
+                    "text": "Website",
+                    "bg_color": "blue-600"
+                },
+                {
+                    "url": "https://github.com/TejasParse/git-clone-backend-sih",
+                    "text": "Backend",
+                    "bg_color": "slate-700"
+                },
+                {
+                    "url": "https://github.com/TejasParse/git-clone-frontend-sih",
+                    "text": "Frontend",
+                    "bg_color": "slate-700"
+                }
+
+            ],
+            "images": [
+                {"url":"/web/fpoportal/adminpage.png", "caption": "Admin Panel for Govt Officer"},
+                {"url":"/web/fpoportal/homepage.png", "caption": "Homepage"},
+                {"url":"/web/fpoportal/servicepage.png", "caption": "Service Listing Page"},
+                {"url":"/web/fpoportal/userpage.png", "caption": "Dashboard for User Investments"}
+            ],
+            "thumbnail": "/web/fpoportal.png",
+            "techUsed": [
+                {"url":"/tech/react.png", "caption": "ReactJs - Used for Frontend"},
+                {"url":"/tech/node.png", "caption": "NodeJs - Used for Backend"},
+                {"url":"/tech/dialog.jpeg", "caption": "Dialogflow - Used for Chatbot"},
+                {"url":"/tech/mongodb.png", "caption": "MongoDB - Used for Database"}
+            ],
+            "description": ["Winning Project of Smart India Hackathon 2023", "Contributed to the Winning Team at Smart India Hackathon 2023, actively involved in developing an analytical portal for comparison of FPOs, coupled with a marketplace for income diversification","Implemented a Smart Voice-based Multilingual NLP Chatbot using ReactJs (Frontend) and Nodejs (Backend), alongside Dialogflow for Text Chatbot, and MongoDB for efficient data management"],
+            "gridSpan": 6
+        },
+        {
+            "title": "Pet Sanctum - Pet Adoption and Listing!",
+            "links": [
+                {
+                    "url": "https://stellular-lamington-287e44.netlify.app/",
+                    "text": "Website",
+                    "bg_color": "blue-600"
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=9iGJ7-JORNw",
+                    "text": "Demo",
+                    "bg_color": "red-600"
+                },
+                {
+                    "url": "https://github.com/TejasParse/pet-sanctum-react",
+                    "text": "Github",
+                    "bg_color": "slate-700"
+                }
+
+            ],
+            "images": [
+                {"url":"/web/petsanctum/adminpage.png", "caption": "Admin Panel with Global Information"},
+                {"url":"/web/petsanctum/adoptpage.png", "caption": "Pet Listing Page"},
+                {"url":"/web/petsanctum/blogspage.png", "caption": "Blogs Page"},
+                {"url":"/web/petsanctum/petpage.png", "caption": "Pet Profile Page"},
+                {"url":"/web/petsanctum/profilepage.png", "caption": "Profile Page"},
+                {"url":"/web/petsanctum/uploadpage.png", "caption": "Upload Pet Page"}
+            ],
+            "techUsed": [
+                {"url":"/tech/react.png", "caption": "ReactJs - Used for Frontend"},
+                {"url":"/tech/node.png", "caption": "NodeJs - Used for Backend"},
+                {"url":"/tech/mongodb.png", "caption": "MongoDB - Used for Database"},
+                {"url":"/tech/redis.jpg", "caption": "Redis - Used for Caching"}
+            ],
+            "thumbnail": "/web/petsanctum.png",
+            "description": [
+                "A web application where one can find animals to adopt and simultaneously upload their pets and apply for the rescue of stray animals through the application.", 
+                "Developed 100% RESTful API using Express.JS with MongoDB as a persistence layer while utilizing ReactJS on the front end. It follows the MVC Model and uses Redis for Caching which also is CICD pipelined."
+            ],
+            "gridSpan": 6
+        }
+
+    ],
+    "ML": [
+        {
+            "title": "Devanagari Handwritten Digits Recognition",
+            "links": [
+                {
+                    "url": "https://shimmering-frangipane-5bd0d2.netlify.app/",
+                    "text": "Website",
+                    "bg_color": "blue-600"
+                },
+                {
+                    "url": "https://github.com/TejasParse/devanagari-recognition-client",
+                    "text": "Github",
+                    "bg_color": "slate-700"
+                }
+
+            ],
+            "images": [
+                {"url":"/ml/devanagari/homepage.png", "caption": "Webpage utilizing the Model"}
+
+            ],
+            "thumbnail": "/ml/devanagari.png",
+            "techUsed": [
+                {"url":"/tech/react.png", "caption": "ReactJs - Used for Frontend"},
+                {"url":"/tech/fastapi.png", "caption": "FastAPI - Used for Backend"},
+                {"url":"/tech/pytorch.png", "caption": "PyTorch - Used for ML Model"}
+            ],
+            "description": ["Trained several locally accelerated GPU CNN models.", "These models were boosted by a robust technique that utilized the features of a Multilingual OCR dataset that achieved 99.70% testing accuracy."],
+            "gridSpan": "12"
+        },
+        {
+            "title": "Pong DQN RL Agent",
+            "links": [
+                {
+                    "url": "https://youtu.be/HR3dgTOkfIU",
+                    "text": "Demo",
+                    "bg_color": "red-600"
+                },
+                {
+                    "url": "https://github.com/TejasParse/pong-rl-agent",
+                    "text": "Github",
+                    "bg_color": "slate-700"
+                }
+            ],
+            "images": [
+                {"url":"/ml/pong/homepage.png", "caption": "Trained Model competing with Computer"}
+            ],
+            "techUsed": [
+                {"url":"/tech/gym.jpg", "caption": "OpenAI Gym - Used for RL Environment"},
+                {"url":"/tech/tensorflow.png", "caption": "Tensorflow - Used for DQN Model"}
+            ],
+            "thumbnail": "/ml/pong.png",
+            "description": [
+                "Trained a Reinforcement Learning Pong Agent to play against computer.", 
+                "DQN predicts the action. DQN is based on tensorflow keras. Environment is taken from built-in GYM environments"
+            ],
+            "gridSpan": 12,
+            "youtubeLink": ""
+        }
+
+    ]
+}
