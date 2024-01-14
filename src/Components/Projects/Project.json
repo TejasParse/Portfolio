@@ -24,7 +24,8 @@
                 {"url":"/web/fpoportal/adminpage.png", "caption": "Admin Panel for Govt Officer"},
                 {"url":"/web/fpoportal/homepage.png", "caption": "Homepage"},
                 {"url":"/web/fpoportal/servicepage.png", "caption": "Service Listing Page"},
-                {"url":"/web/fpoportal/userpage.png", "caption": "Dashboard for User Investments"}
+                {"url":"/web/fpoportal/userpage.png", "caption": "Dashboard for User Investments"},
+                {"url":"/web/fpoportal/wdcPage.png", "caption": "WDC Page"}
             ],
             "thumbnail": "/web/fpoportal.png",
             "techUsed": [
@@ -34,7 +35,7 @@
                 {"url":"/tech/mongodb.png", "caption": "MongoDB - Used for Database"}
             ],
             "description": ["Winning Project of Smart India Hackathon 2023", "Contributed to the Winning Team at Smart India Hackathon 2023, actively involved in developing an analytical portal for comparison of FPOs, coupled with a marketplace for income diversification","Implemented a Smart Voice-based Multilingual NLP Chatbot using ReactJs (Frontend) and Nodejs (Backend), alongside Dialogflow for Text Chatbot, and MongoDB for efficient data management"],
-            "gridSpan": 6
+            "gridSize": "2"
         },
         {
             "title": "Pet Sanctum - Pet Adoption and Listing!",
@@ -75,7 +76,7 @@
                 "A web application where one can find animals to adopt and simultaneously upload their pets and apply for the rescue of stray animals through the application.", 
                 "Developed 100% RESTful API using Express.JS with MongoDB as a persistence layer while utilizing ReactJS on the front end. It follows the MVC Model and uses Redis for Caching which also is CICD pipelined."
             ],
-            "gridSpan": 6
+            "gridSize": "2"
         }
 
     ],
@@ -106,7 +107,30 @@
                 {"url":"/tech/pytorch.png", "caption": "PyTorch - Used for ML Model"}
             ],
             "description": ["Trained several locally accelerated GPU CNN models.", "These models were boosted by a robust technique that utilized the features of a Multilingual OCR dataset that achieved 99.70% testing accuracy."],
-            "gridSpan": "12"
+            "gridSize": 1
+        },
+        {
+            "title": "ShakespeareGPT",
+            "links": [
+                {
+                    "url": "https://github.com/TejasParse/language-model",
+                    "text": "Github",
+                    "bg_color": "slate-700"
+                }
+            ],
+            "images": [
+                {"url":"/ml/languageModel/languageModel.png", "caption": "Trained Language Model Generating Tokens"}
+            ],
+            "techUsed": [
+                {"url":"/tech/pytorch.png", "caption": "PyTorch - Used for ML Model"}
+            ],
+            "thumbnail": "/ml/languageModel.png",
+            "description": [
+                "Created a bigram language model and trained it using the written works of author William Shakespeare", 
+                "Created a generative pretrained transformer to generate tokens that mimics Shakespeare’s writing."
+            ],
+            "gridSize": 1,
+            "youtubeLink": ""
         },
         {
             "title": "Pong DQN RL Agent",
@@ -134,7 +158,7 @@
                 "Trained a Reinforcement Learning Pong Agent to play against computer.", 
                 "DQN predicts the action. DQN is based on tensorflow keras. Environment is taken from built-in GYM environments"
             ],
-            "gridSpan": 12,
+            "gridSize": 1,
             "youtubeLink": ""
         }
 

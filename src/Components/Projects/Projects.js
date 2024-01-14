@@ -16,7 +16,13 @@ function MyVerticallyCenteredModal(props) {
 
   // console.log(props.projectType, props.indexProject, ProjectsData, "Kya hua?");
 
-  const projectInformation = ProjectsData[props.projectType][props.indexProject];
+  let projectInformation = ProjectsData[props.projectType][props.indexProject];
+  console.log(projectInformation);
+
+  if(!projectInformation) {
+    projectInformation = ProjectsData["Web"][0];
+
+  }
 
   return (
     <Modal
@@ -56,12 +62,12 @@ function MyVerticallyCenteredModal(props) {
         </div>
         
 
-        <div className='grid grid-cols-12 mt-2'>
+        <div className={`grid grid-cols-${projectInformation.gridSize} mt-2`}>
           {
             projectInformation?.images?.map(elm=>{
 
               return (
-                <div className={`col-span-${projectInformation.gridSpan || "12"} p-2 bg-gray-300`}>
+                <div className={`col-span-1 p-2 bg-gray-300`}>
                   <img src={elm.url}/>
                   <div className='text-center pt-2'>{elm.caption}</div>
                 </div>
@@ -179,13 +185,15 @@ const Projects = () => {
 
   const MlProjects = () => {
 
+
+
     return (
       <div className=''>
         <div className='grid grid-cols-12 gap-3'>
           {
             ProjectsData["ML"].map((elm, index) => {
               return (
-                <div className='col-span-6 border-2 border-black bg-light-brown-bg text-white text-center font-semibold'>
+                <div className='col-span-4 border-2 border-black bg-light-brown-bg text-white text-center font-semibold'>
                   <div >
                     <div className='py-2 text-lg' dangerouslySetInnerHTML={{ __html: elm.title }}></div>
                     <img src={elm.thumbnail} style={{ objectFit: "contain" }} />
