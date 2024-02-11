@@ -19,6 +19,7 @@ import mongodb from "./icons/mongodb_icon.webp";
 import mysql from "./icons/mysql_icon.png";
 import azure from "./icons/azure.svg";
 import github from "./icons/github_icon.png"
+import typescript from "./icons/typescript.png"
 
 const Skills = () => {
 
@@ -35,7 +36,7 @@ const Skills = () => {
   }
 
   return (
-    <div className="h-screen flex flex-col justify-center">
+    <div className="md:h-screen flex flex-col justify-center px-2 py-2 md:p-0">
       <div className="border-b-4 border-b-brown-bg mb-4"></div>
       <div className="border-x-4 border-x-brown-bg px-2 mb-4">
         <div className="flex flex-row justify-between">
@@ -74,7 +75,7 @@ const Skills = () => {
         <div className="border-b-4 pb-2 border-b-brown-bg text-2xl text-brown-bg font-semibold mb-3">
           Skills
         </div>
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div>
             <div className="border-b-2 border-b-black text-center font-bold mb-2">
               Languages
@@ -120,6 +121,15 @@ const Skills = () => {
                 <div className="flex flex-row gap-2">
                   <img src={javascript} alt="" style={{ width: "20px" }} />
                   <span>Javascript</span>
+                </div>
+                <div>
+                  <FullStars />
+                </div>
+              </div>
+              <div className="flex flex-row justify-between mb-2">
+                <div className="flex flex-row gap-2">
+                  <img src={typescript} alt="" style={{ width: "20px" }} />
+                  <span>Typescript</span>
                 </div>
                 <div>
                   <FullStars />

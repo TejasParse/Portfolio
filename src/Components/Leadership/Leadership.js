@@ -5,26 +5,25 @@ import iota from "./icons/iota.png"
 
 const Leadership = () => {
   return (
-    <div className="h-screen flex flex-col justify-center">
+    <div className="md:h-screen flex flex-col justify-center md:p-0 p-3">
       <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2 pb-3 mb-6">
-        <h1 className="text-3xl font-bold text-light-brown-bg">
+        <h1 className="text-xl md:text-3xl font-bold text-light-brown-bg">
           Positions Of Responsibility
         </h1>
       </div>
       <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2 mb-6">
-        <div className="flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
-          <div className="flex flex-row justify-start gap-2">
+        <div className="md:flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
+          <div className="flex flex-row items-center justify-start gap-2">
             <img
-              className=""
-              style={{ width: "30px" }}
+              className="w-[30px] h-[30px]"
               src={iiits}
               alt="IIIT Sri City Logo"
             />
-            <div className="text-xl font-bold">
+            <div className="md:text-xl font-bold">
               Mess (Dining) Secretary @ Student Life Council, IIIT Sri City
             </div>
           </div>
-          <div className="text-xl text-black font-semibold">
+          <div className="md:text-xl text-black font-semibold">
             Sept 2022 - May 2023
           </div>
         </div>
@@ -45,19 +44,18 @@ const Leadership = () => {
       </div>
 
       <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2">
-        <div className="flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
-          <div className="flex flex-row justify-start gap-2">
+        <div className="md:flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
+          <div className="flex flex-row justify-start items-center gap-2">
             <img
-              className=""
-              style={{ width: "30px" }}
+              className="w-[30px] h-[30px]"
               src={iota}
               alt="IOTA Logo"
             />
-            <div className="text-xl font-bold">
+            <div className="md:text-xl font-bold">
               Head, Core @ IOTA, Projects Club of IIIT Sri City
             </div>
           </div>
-          <div className="text-xl text-black font-semibold">
+          <div className="md:text-xl text-black font-semibold">
             Sept 2021 - May 2023
           </div>
         </div>

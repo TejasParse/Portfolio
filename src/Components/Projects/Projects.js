@@ -193,9 +193,9 @@ const Projects = () => {
           {
             ProjectsData["ML"].map((elm, index) => {
               return (
-                <div className='col-span-4 border-2 border-black bg-light-brown-bg text-white text-center font-semibold'>
+                <div className='col-span-12 md:col-span-6 lg:col-span-4 border-2 border-black bg-light-brown-bg text-white text-center font-semibold'>
                   <div >
-                    <div className='py-2 text-lg' dangerouslySetInnerHTML={{ __html: elm.title }}></div>
+                    <div className='py-2 md:text-lg' dangerouslySetInnerHTML={{ __html: elm.title }}></div>
                     <img src={elm.thumbnail} style={{ objectFit: "contain" }} />
                     <div className='p-2 font-normal flex justify-between'>
                       <div>
@@ -383,9 +383,9 @@ const Projects = () => {
           {
             ProjectsData["Web"].map((elm, index) => {
               return (
-                <div className='col-span-6 border-2 border-black bg-light-brown-bg text-white text-center font-semibold'>
+                <div className='col-span-12 md:col-span-6 border-2 border-black bg-light-brown-bg text-white text-center font-semibold'>
                   <div >
-                    <div className='py-2 text-lg' dangerouslySetInnerHTML={{ __html: elm.title }}></div>
+                    <div className='py-2 md:text-lg' dangerouslySetInnerHTML={{ __html: elm.title }}></div>
                     <img src={elm.thumbnail} style={{ objectFit: "contain" }} />
                     <div className='p-2 font-normal flex justify-between'>
                       <div>
@@ -434,7 +434,7 @@ const Projects = () => {
   }
 
   return (
-    <div className="h-screen flex flex-col justify-center">
+    <div className="md:h-screen flex flex-col justify-center mx-3 my-3 md:px-0 md:py-0">
       <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2 pb-3 mb-6">
         <div className="flex flex-row justify-between">
           <h1 className="text-3xl font-bold text-light-brown-bg">Projects</h1>

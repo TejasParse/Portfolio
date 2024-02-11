@@ -13,10 +13,10 @@ const MainApp = (props)=>{
 
     return (
       <div className="grid grid-cols-10">
-        <div className="col-span-2 h-screen bg-brown-bg">
+        <div className="hidden lg:block col-span-none lg:col-span-2 h-screen bg-brown-bg">
           <Navbar />
         </div>
-        <div className="col-span-8 px-9">
+        <div className="col-span-10 lg:col-span-8 sm:px-3 lg:px-9">
           <Routes>
             <Route index element={<AboutMe />} path="/" />
             <Route index element={<Education />} path="/Education" />

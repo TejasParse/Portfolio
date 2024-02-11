@@ -2,31 +2,59 @@ import React from 'react';
 
 import settyl from "./icons/settyl.jpg";
 import appscms from "./icons/appscms.png";
+import datstek from "./icons/datstek.webp";
 
 const Experience = () => {
   return (
-    <div className="h-screen flex flex-col justify-center">
+    <div className="md:h-screen flex flex-col justify-center px-3 py-3 md:px-0 md:py-0">
       <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2 pb-3 mb-6">
-        <h1 className="text-3xl font-bold text-light-brown-bg">Experience</h1>
+        <h1 className="text-xl md:text-3xl font-bold text-light-brown-bg">Experience</h1>
       </div>
       <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2 mb-6">
-        <div className="flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
-          <div className="flex flex-row justify-start gap-2">
+        <div className="md:flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
+          <div className="flex flex-row justify-start gap-2 items-center">
             <img
-              className=""
-              style={{ width: "30px" }}
+              className="w-[30px] h-[30px]"
+              src={datstek}
+              alt="DatStek"
+            />
+            <div className="md:text-xl font-bold">
+              Full Stack Dev Intern @ DatStek
+            </div>
+          </div>
+          <div className="md:text-xl text-black font-semibold">
+            Jan 2024 - Present
+          </div>
+        </div>
+        <div className="p-4 md:font-md">
+          <ul className="list-disc">
+            <li>
+              Worked on Sports Content Management system in MERN stack. Implemented complex mongodb aggregation
+              pipeline to optimize search queries.
+            </li>
+            <li>
+              Used <span className="font-bold">Typescript</span> for more robust error free frontend.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2 mb-6">
+        <div className="md:flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
+          <div className="flex flex-row justify-start gap-2 items-center">
+            <img
+              className="w-[30px] h-[30px]"
               src={settyl}
               alt="Settyl"
             />
-            <div className="text-xl font-bold">
+            <div className="md:text-xl font-bold">
               Full Stack Dev Intern @ Settyl Tech Private Ltd
             </div>
           </div>
-          <div className="text-xl text-black font-semibold">
+          <div className="md:text-xl text-black font-semibold">
             May 2023 - Sept 2023
           </div>
         </div>
-        <div className="p-4 font-md">
+        <div className="p-4 md:font-md">
           <ul className="list-disc">
             <li>
               Have worked on the company’s{" "}
@@ -46,23 +74,22 @@ const Experience = () => {
       </div>
 
       <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2">
-        <div className="flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
-          <div className="flex flex-row justify-start gap-2">
+        <div className="md:flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
+          <div className="flex flex-row justify-start gap-2 items-center">
             <img
-              className=""
-              style={{ width: "30px" }}
+              className="w-[30px] h-[30px]"
               src={appscms}
               alt="Appscms"
             />
-            <div className="text-xl font-bold">
+            <div className="md:text-xl font-bold">
               Software Development Intern @ Appscms Technologies
             </div>
           </div>
-          <div className="text-xl text-black font-semibold">
+          <div className="md:text-xl text-black font-semibold">
             July 2022 - Nov 2022
           </div>
         </div>
-        <div className="p-4 font-md">
+        <div className="p-4 md:font-md">
           <ul className="list-disc">
             <li>
               Built 50+ GIF processing tools for the company on the front end.
