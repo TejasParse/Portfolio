@@ -26,7 +26,7 @@ const MainApp = (props) => {
       <div className="lg:hidden col-span-10">
         <div className="flex flex-row justify-between items-center p-3 bg-brown-bg">
           <div className="fs-3 fw-semibold text-white">{location.pathname==="/" ? "/About Me" : location.pathname}/</div>
-          <div className="h-[40px] w-[40px]" onClick={() => setNavOpen(prev => !prev)}><img src="/menu.png" /></div>
+          <div className="h-[40px] w-[40px]" onClick={() => setNavOpen(prev => !prev)}><img src="/hamburger.png" /></div>
         </div>
         {
           navOpen && (
