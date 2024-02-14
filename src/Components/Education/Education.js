@@ -9,7 +9,7 @@ const Education = () => {
   }
 
   return (
-    <div className="md:h-screen py-3 px-3 md:px-0 md:py-0 flex flex-col justify-center">
+    <div className="lg:h-screen py-3 px-3 md:px-0 md:py-0 flex flex-col justify-center">
         <div className="border-y-2 border-brown-bg py-3">
           <div className="md:flex flex-row justify-between">
             <div className='flex flex-row justify-start gap-2'>

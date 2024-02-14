@@ -5,7 +5,7 @@ import WCA from "./icons/wca.svg"
 
 const AboutMe = (props) => {
   return (
-    <div className="md:h-screen flex flex-col justify-center px-4 md:pe-24 py-3 md:py-0">
+    <div className="lg:h-screen flex flex-col justify-center px-4 md:pe-24 py-3 md:py-0">
       <h1 className="text-2xl md:text-5xl font-bold pb-2">
         Tejas Ajay <span className="text-brown-bg">Parse</span>
       </h1>

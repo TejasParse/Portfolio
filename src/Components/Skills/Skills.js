@@ -36,7 +36,7 @@ const Skills = () => {
   }
 
   return (
-    <div className="md:h-screen flex flex-col justify-center px-2 py-2 md:p-0">
+    <div className="lg:h-screen flex flex-col justify-center px-2 py-2 md:p-0">
       <div className="border-b-4 border-b-brown-bg mb-4"></div>
       <div className="border-x-4 border-x-brown-bg px-2 mb-4">
         <div className="flex flex-row justify-between">
@@ -75,7 +75,7 @@ const Skills = () => {
         <div className="border-b-4 pb-2 border-b-brown-bg text-2xl text-brown-bg font-semibold mb-3">
           Skills
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div>
             <div className="border-b-2 border-b-black text-center font-bold mb-2">
               Languages
