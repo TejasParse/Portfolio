@@ -21,16 +21,15 @@ const AboutMe = (props) => {
       </div>
       <div className="md:text-lg mb-3 md:mb-1">
         During my B.Tech I have worked on several projects in Web Development
-        and Machine Learning. I also have <b>10 months of Intern experience</b>{" "}
+        and Machine Learning. I also have <b>over a year of Intern experience</b>{" "}
         as a Web Developer particularly in MERN stack. I am currently
-        looking for full time Machine Learning and Web Development Internships
-        starting Janurary 2024.
+        looking for full time Machine Learning and Web Development opportunities to expand my knowledge boundary.
       </div>
       <div className="md:text-lg mb-3 md:mb-4">
         I am also a Speed Cuber. I am regularly competing at speedcubing held by
         the World Cube Association since 2017. I am currently ranked among Top
         80 speedcubers of India with a notable result being my pyraminx solve of{" "}
-        <b>2.41</b> seconds that ranks me 62 in India.
+        <b>1.84</b> seconds that ranks me 20 in India.
       </div>
       <div className="flex flex-row gap-x-4">
         <a target="_blank" href="https://codeforces.com/profile/TejasParse03">

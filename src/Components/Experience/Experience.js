@@ -29,11 +29,16 @@ const Experience = () => {
         <div className="p-4 md:font-md">
           <ul className="list-disc">
             <li>
-              Worked on Sports Content Management system in MERN stack. Implemented complex mongodb aggregation
-              pipeline to optimize search queries.
+              Worked on Sports Content Management system in <span className="font-bold">MERN</span> stack. Implemented complex{" "}
+              <span className="font-bold">mongodb aggregation pipeline</span>  to optimize search queries.
             </li>
             <li>
-              Used <span className="font-bold">Typescript</span> for more robust error free frontend.
+              Worked on platform for Online Election Campaign Management on <span className="font-bold">React, React-Native</span> for client
+              and <span className="font-bold">FastAPI, PostgreSQL</span>  for Server
+            </li>
+            <li>
+              Working on Legal Document Management implementing complex PDF Management suite for Legal Document Creation
+              and Signing in <span className="font-bold">PERN Stack</span>.
             </li>
           </ul>
         </div>

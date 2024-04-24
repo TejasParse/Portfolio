@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Profile from "./images/new_profile.JPG";
-import PR from "./images/ChinaPR.jpg";
+import PR from "./images/latestPr.png";
 
 const SpeedCubing = () => {
   return (

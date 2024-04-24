@@ -20,6 +20,7 @@ import mysql from "./icons/mysql_icon.png";
 import azure from "./icons/azure.svg";
 import github from "./icons/github_icon.png"
 import typescript from "./icons/typescript.png"
+import postgres from "./icons/postgre.png"
 
 const Skills = () => {
 
@@ -153,6 +154,15 @@ const Skills = () => {
               </div>
               <div className="flex flex-row justify-between mb-2">
                 <div className="flex flex-row gap-2">
+                  <img src={react} alt="" style={{ width: "20px" }} />
+                  <span>React Native</span>
+                </div>
+                <div>
+                  <FullStars />
+                </div>
+              </div>
+              <div className="flex flex-row justify-between mb-2">
+                <div className="flex flex-row gap-2">
                   <img src={node} alt="" style={{ width: "40px" }} />
                   <span>Nodejs</span>
                 </div>
@@ -222,7 +232,7 @@ const Skills = () => {
                   <span>Pandas</span>
                 </div>
                 <div>
-                  <OneStars />
+                  <PartialStars />
                 </div>
               </div>
               <div className="flex flex-row justify-between mb-2">
@@ -281,6 +291,15 @@ const Skills = () => {
                 <div className="flex flex-row gap-2">
                   <img src={github} alt="" style={{ width: "20px" }} />
                   <span>Github</span>
+                </div>
+                <div>
+                  <FullStars />
+                </div>
+              </div>
+              <div className="flex flex-row justify-between mb-2">
+                <div className="flex flex-row gap-2">
+                  <img src={postgres} alt="" style={{ width: "20px" }} />
+                  <span>PostgreSQL</span>
                 </div>
                 <div>
                   <FullStars />
