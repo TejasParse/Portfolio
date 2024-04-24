@@ -5,7 +5,7 @@
             "links": [
                 {
                     "url": "https://git-clone-frontend.vercel.app/",
-                    "text": "Website",
+                    "text": "Try it",
                     "bg_color": "blue-600"
                 },
                 {
@@ -42,7 +42,7 @@
             "links": [
                 {
                     "url": "https://stellular-lamington-287e44.netlify.app/",
-                    "text": "Website",
+                    "text": "Try it",
                     "bg_color": "blue-600"
                 },
                 {
@@ -75,6 +75,43 @@
             "description": [
                 "A web application where one can find animals to adopt and simultaneously upload their pets and apply for the rescue of stray animals through the application.", 
                 "Developed 100% RESTful API using Express.JS with MongoDB as a persistence layer while utilizing ReactJS on the front end. It follows the MVC Model and uses Redis for Caching which also is CICD pipelined."
+            ],
+            "gridSize": "2"
+        },
+        {
+            "title": "UNO Multiplayer - A Socket Symphony",
+            "links": [
+                {
+                    "url": "https://visionary-bavarois-a68d02.netlify.app/",
+                    "text": "Try it",
+                    "bg_color": "blue-600"
+                },
+                {
+                    "url": "https://github.com/TejasParse/uno-frontend",
+                    "text": "Frontend",
+                    "bg_color": "slate-700"
+                },
+                {
+                    "url": "https://github.com/TejasParse/uno-backend",
+                    "text": "Backend",
+                    "bg_color": "slate-700"
+                }
+
+            ],
+            "images": [
+                {"url":"/web/uno/homepage.png", "caption": "Homepage"},
+                {"url":"/web/uno/game.png", "caption": "Gameplay Snapshot"}
+            ],
+            "techUsed": [
+                {"url":"/tech/react.png", "caption": "ReactJs - Used for Frontend"},
+                {"url":"/tech/node.png", "caption": "NodeJs - Used for Backend"},
+                {"url":"/tech/socket.png", "caption": "Socket - Used for Client-Server Interaction"}
+            ],
+            "thumbnail": "/web/uno1.png",
+            "description": [
+                "Developed 100% RESTful API using Express.JS with MongoDB as a persistence layer while utilizing ReactJS on the front end. It follows the MVC Model and uses Redis for Caching which also is CICD pipelined.",
+                "Implemented a robust socket connection system to synchronize game data among multiple players in real-time, overcoming challenges to ensure smooth gameplay.",
+                "Enhanced user interaction with integrated chatbox functionality and a visually appealing user interface crafted using Tailwind CSS and Framer Motion."
             ],
             "gridSize": "2"
         }

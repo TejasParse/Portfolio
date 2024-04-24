@@ -383,9 +383,9 @@ const Projects = () => {
           {
             ProjectsData["Web"].map((elm, index) => {
               return (
-                <div className='col-span-12 md:col-span-6 border-2 border-black bg-light-brown-bg text-white text-center font-semibold'>
+                <div className='col-span-12 md:col-span-4 border-2 border-black bg-light-brown-bg text-white text-center font-semibold'>
                   <div >
-                    <div className='py-2 md:text-lg' dangerouslySetInnerHTML={{ __html: elm.title }}></div>
+                    <div className='py-2 md:text-md' dangerouslySetInnerHTML={{ __html: elm.title }}></div>
                     <img src={elm.thumbnail} style={{ objectFit: "contain" }} />
                     <div className='p-2 font-normal flex justify-between'>
                       <div>
