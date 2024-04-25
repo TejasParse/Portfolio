@@ -109,7 +109,7 @@
             ],
             "thumbnail": "/web/uno1.png",
             "description": [
-                "Developed 100% RESTful API using Express.JS with MongoDB as a persistence layer while utilizing ReactJS on the front end. It follows the MVC Model and uses Redis for Caching which also is CICD pipelined.",
+                "Developed a real-time UNO multiplayer game using React.js and Node.js with Express.js with an integrated chat room feature for enhanced user interaction.",
                 "Implemented a robust socket connection system to synchronize game data among multiple players in real-time, overcoming challenges to ensure smooth gameplay.",
                 "Enhanced user interaction with integrated chatbox functionality and a visually appealing user interface crafted using Tailwind CSS and Framer Motion."
             ],
