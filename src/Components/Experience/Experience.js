@@ -23,22 +23,19 @@ const Experience = () => {
             </div>
           </div>
           <div className="md:text-xl text-black font-semibold">
-            Jan 2024 - Present
+            Jan 2024 - June 2024
           </div>
         </div>
         <div className="p-4 md:font-md">
           <ul className="list-disc">
             <li>
-              Worked on Sports Content Management system in <span className="font-bold">MERN</span> stack. Implemented complex{" "}
-              <span className="font-bold">mongodb aggregation pipeline</span>  to optimize search queries.
+              Developed a Sports Content Management System using <span className="font-bold">ReactJs, MongoDB, and NodeJs,</span> optimizing search queries with complex <span className="font-bold">MongoDB aggregation pipelines.</span>
             </li>
             <li>
-              Worked on platform for Online Election Campaign Management on <span className="font-bold">React, React-Native</span> for client
-              and <span className="font-bold">FastAPI, PostgreSQL</span>  for Server
+              Developed mobile and web apps for managing electoral campaigns using <span className="font-bold">FastAPI, PostgreSQL, and React.</span>
             </li>
             <li>
-              Working on Legal Document Management implementing complex PDF Management suite for Legal Document Creation
-              and Signing in <span className="font-bold">PERN Stack</span>.
+              Created a Legal Document Web App with a comprehensive PDF management suite for document creation and signing, utilizing the <span className="font-bold">PERN</span> stack and <span className="font-bold">Google Docs API.</span>
             </li>
           </ul>
         </div>

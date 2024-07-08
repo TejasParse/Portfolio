@@ -87,12 +87,12 @@
                     "bg_color": "blue-600"
                 },
                 {
-                    "url": "https://github.com/TejasParse/uno-frontend",
+                    "url": "https://github.com/TejasParse/uno-frontend/tree/backend-heavy",
                     "text": "Frontend",
                     "bg_color": "slate-700"
                 },
                 {
-                    "url": "https://github.com/TejasParse/uno-backend",
+                    "url": "https://github.com/TejasParse/uno-frontend/tree/backend-heavy",
                     "text": "Backend",
                     "bg_color": "slate-700"
                 }

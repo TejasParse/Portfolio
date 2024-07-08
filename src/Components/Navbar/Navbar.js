@@ -1,6 +1,7 @@
 import { useLocation, Link } from "react-router-dom";
 import resume_imge from "./Image.jpg";
 import cubing_image from "./cubing.png";
+import linkedin_image from "./linkedin.png";
 
 const Navbar = (props)=>{
 
@@ -20,7 +21,7 @@ const Navbar = (props)=>{
                 </h1> */}
                 <div className="border-2 border-white p-2 mb-6 m-12 rounded-full aspect-square bg-light-brown-bg">
                     { location1.pathname === "/SpeedCubing" && <img src={cubing_image} alt="Profile" className="rounded-full aspect-square" /> }
-                    { location1.pathname !== "/SpeedCubing" && <img src={resume_imge} alt="Profile" className="rounded-full aspect-square" /> }
+                    { location1.pathname !== "/SpeedCubing" && <img src={linkedin_image} alt="Profile" className="rounded-full aspect-square" /> }
                     
                 </div>
 
