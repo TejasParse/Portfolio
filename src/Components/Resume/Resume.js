@@ -12,7 +12,7 @@ const Resume = () => {
 
   return (
     <div className='flex flex-row justify-center'>
-      <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@latest/build/pdf.worker.min.js">
         <div className='h-screen' style={{ width: "900px" }}>
           <Viewer
             fileUrl={`/resume_ms.pdf`}
