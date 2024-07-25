@@ -52,7 +52,7 @@ const Education = () => {
         </div>
         <div className="flex flex-row justify-between">
           <h1 className="md:text-lg italic">Specialization in AI & ML</h1>
-          <h1 className="md:text-lg italic font-semibold">GPA: 9.27</h1>
+          <h1 className="md:text-lg italic font-semibold">GPA: 9.30</h1>
         </div>
         <div className="mt-2">
           <div className="md:text-lg font-medium">Coursework:</div>
