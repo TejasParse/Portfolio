@@ -17,7 +17,7 @@ const AboutMe = (props) => {
 
         I am a passionate Software Development and Machine Learning Enthusiast, who has completed my B.Tech in Computer Science with a specialization in AI & ML from the Indian Institute of Information Technology, Sri City, graduating with a CGPA of <b>9.30</b>. 
         My team, Git Clone, won the <b>Smart India Hackathon 2023</b> held by the <b>Ministry of Education</b>. 
-        I will soon start my Master of Science in Computer Science at Arizona State University.
+        I have started my Master of Science in Computer Science at Arizona State University.
 
         {/* I am a passionate Machine Learning and Web Development Enthusiast,
         currently pursuing my B.Tech in Computer Science with specialization in
