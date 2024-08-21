@@ -15,9 +15,13 @@ const AboutMe = (props) => {
       </h1>
       <div className="md:text-lg mb-3 md:mb-1">
 
-        I am a passionate Software Development and Machine Learning Enthusiast, who has completed my B.Tech in Computer Science with a specialization in AI & ML from the Indian Institute of Information Technology, Sri City, graduating with a CGPA of <b>9.30</b>. 
+        I am a passionate Software Development and Machine Learning enthusiast with a B.Tech in Computer Science, specializing in AI & ML from Indian Institute of Information Technology Sri City, where I graduated with a CGPA of <b>9.30</b>.
+        My team, Git Clone, won the <b>Smart India Hackathon 2023</b>, hosted by the <b>Ministry of Education</b>.
+        Currently, I am pursuing a Master of Science in Computer Science at Arizona State University.
+
+        {/* I am a passionate Software Development and Machine Learning Enthusiast, who has completed my B.Tech in Computer Science with a specialization in AI & ML from the Indian Institute of Information Technology, Sri City, graduating with a CGPA of <b>9.30</b>. 
         My team, Git Clone, won the <b>Smart India Hackathon 2023</b> held by the <b>Ministry of Education</b>. 
-        I have started my Master of Science in Computer Science at Arizona State University.
+        I have started my Master of Science in Computer Science at Arizona State University. */}
 
         {/* I am a passionate Machine Learning and Web Development Enthusiast,
         currently pursuing my B.Tech in Computer Science with specialization in
@@ -25,16 +29,16 @@ const AboutMe = (props) => {
         won the <b>Smart India Hackathon 2023</b> held by <b>Ministry of Education.</b>{" "} */}
       </div>
       <div className="md:text-lg mb-3 md:mb-1">
-        During my B.Tech I have worked on several projects in Web Development
+        During my B.Tech, I worked on numerous projects in Web Development and Machine Learning and gained over a year of internship experience as a Web Developer,
+        particularly in the MERN stack. I am now seeking full-time opportunities in Machine Learning and Web Development to further broaden my expertise.
+        {/* During my B.Tech I have worked on several projects in Web Development
         and Machine Learning. I also have <b>over a year of Intern experience</b>{" "}
         as a Web Developer particularly in MERN stack. I am currently
-        looking for full time Machine Learning and Web Development opportunities to expand my knowledge boundary.
+        looking for full time Machine Learning and Web Development opportunities to expand my knowledge boundary. */}
       </div>
       <div className="md:text-lg mb-3 md:mb-4">
-        I am also a Speed Cuber. I am regularly competing at speedcubing held by
-        the World Cube Association since 2017. I am currently ranked among Top
-        80 speedcubers of India with a notable result being my pyraminx solve of{" "}
-        <b>1.84</b> seconds that ranks me 20 in India.
+        Additionally, I am a dedicated speedcuber, competing since 2017 in World Cube Association events.
+        I am ranked among the top 80 speedcubers in India, with a notable pyraminx solve of <b>1.84</b> seconds, ranking me 20th nationally.
       </div>
       <div className="flex flex-row gap-x-4">
         <a target="_blank" href="https://codeforces.com/profile/TejasParse03">
