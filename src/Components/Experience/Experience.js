@@ -66,10 +66,11 @@ const Experience = () => {
             </li>
             <li>
               Developed 20+ RESTful APIs in their backend microservice
-              architecture in <span className="font-bold">Nodejs</span> and
-              created several <span className="font-bold">MongoDB</span>{" "}
-              triggers and <span className="font-bold">Azure</span> Functions
-              while working closely with the Founder.
+              architecture in <span className="font-bold">Nodejs</span>.
+            </li>
+            <li>
+              Implemented several <span className="font-bold">MongoDB triggers</span> using <span className="font-bold">Azure Functions</span> to automate inter-database synchronization.
+
             </li>
           </ul>
         </div>
