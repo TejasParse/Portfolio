@@ -23,7 +23,7 @@ const Education = () => {
         </div>
         <div className="py-2 md:py-0 md:flex flex-row justify-between">
           <h1 className="md:text-lg">Master of Science in Computer Science</h1>
-          <h1 className="md:text-lg">August 2024 - Present</h1>
+          <h1 className="md:text-lg">August 2024 - May 2026</h1>
         </div>
         {/* <div className="flex flex-row justify-between">
           <h1 className="md:text-lg italic">Specialization in AI & ML</h1>

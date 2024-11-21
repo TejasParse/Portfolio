@@ -29,13 +29,13 @@ const Experience = () => {
         <div className="p-4 md:font-md">
           <ul className="list-disc">
             <li>
-              Developed a Sports Content Management System using <span className="font-bold">ReactJs, MongoDB, and NodeJs,</span> optimizing search queries with complex <span className="font-bold">MongoDB aggregation pipelines.</span>
+              Delivered a Sports Content Management System using <span className="font-bold">ReactJs, MongoDB, and NodeJs,</span> optimizing search queries with complex <span className="font-bold">MongoDB aggregation pipelines by 14%.</span>
             </li>
             <li>
               Developed mobile and web apps for managing electoral campaigns using <span className="font-bold">FastAPI, PostgreSQL, and React.</span>
             </li>
             <li>
-              Created a Legal Document Web App with a comprehensive PDF management suite for document creation and signing, utilizing the <span className="font-bold">PERN</span> stack and <span className="font-bold">Google Docs API.</span>
+              Architected and implemented a legal document management suite using the <span className="font-bold">PERN</span> stack and <span className="font-bold">Google Docs API.</span>, enabling admins to build dynamic templates for users to generate legal documents.
             </li>
           </ul>
         </div>
@@ -59,17 +59,16 @@ const Experience = () => {
         <div className="p-4 md:font-md">
           <ul className="list-disc">
             <li>
-              Have worked on the company’s{" "}
+              Collaborated on the company’s{" "}
               <span className="font-bold">ReactJs Micro Frontend</span>{" "}
               architecture and developed several modules, including the
               inventory management module of their supply chain suite.
             </li>
             <li>
-              Developed 20+ RESTful APIs in their backend microservice
-              architecture in <span className="font-bold">Nodejs</span>.
+              Responsible for engineering <span className="font-bold">20+ RESTful endpoints</span> within the <span className="font-bold">Nodejs</span> backend microservice architecture.
             </li>
             <li>
-              Implemented several <span className="font-bold">MongoDB triggers</span> using <span className="font-bold">Azure Functions</span> to automate inter-database synchronization.
+              <span className="font-bold">Migrated</span> Kafka Events to Azure Event Hubs, <span className="font-bold">reducing latency by 19%</span>, and automated database synchronization with MongoDB triggers.
 
             </li>
           </ul>
@@ -107,7 +106,7 @@ const Experience = () => {
             <li>
               Developed and tested new features in the company’s flagship
               product with a team of developers which assisted the company in
-              reaching a milestone of 7,00,000 sessions per month.
+              reaching a milestone of <span className="font-bold">7,00,000 sessions per month.</span> 
             </li>
           </ul>
         </div>
