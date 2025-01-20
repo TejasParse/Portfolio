@@ -1,5 +1,5 @@
 {
-    "Web": [
+    "Javascript": [
         {
             "title": "Farmers Producer Organization(FPO) Portal (SIH'23 &#127942;)!",
             "links": [
@@ -117,9 +117,31 @@
         }
 
     ],
-    "ML": [
+    "Python": [
         {
-            "title": "Devanagari Handwritten Digits Recognition",
+            "visible": true,
+            "title": "Enhanced Video Classification and Retrieval System",
+            "links": [
+                {
+                    "url": "https://github.com/TejasParse/multimedia-retrieval/tree/master",
+                    "text": "Github",
+                    "bg_color": "slate-700"
+                }
+            ],
+            "images": [
+                {"url":"/ml/multimedia/multimedia.png", "caption": "A snapshot from the detailed report showcasing reterival"}
+            ],
+            "thumbnail": "/ml/multimedia.png",
+            "techUsed": [
+                {"url":"/tech/py_icon.png", "caption": "Python - Language to implement classification and Clustering Algorithms"},
+                {"url":"/tech/pytorch.png", "caption": "PyTorch - Used for ML Model"}
+            ],
+            "description": ["Built a video search and classification system using HMDB51, primarily with Python and PyTorch, creating various features from videos and integrating feature extraction, dimensionality reduction, and retrieval mechanisms.", "Implemented classifiers (K-NN, SVM) and a relevance feedback system to improve classification and user-driven search.", "Optimized retrieval with Locality-Sensitive Hashing (LSH) and clustering for efficient similarity search and label analysis."],
+            "gridSize": 1
+        },
+        {
+            "visible": true,
+            "title": "Devanagari Handwritten Digits Recognition<br>",
             "links": [
                 {
                     "url": "https://shimmering-frangipane-5bd0d2.netlify.app/",
@@ -135,7 +157,6 @@
             ],
             "images": [
                 {"url":"/ml/devanagari/homepage.png", "caption": "Webpage utilizing the Model"}
-
             ],
             "thumbnail": "/ml/devanagari.png",
             "techUsed": [
@@ -147,7 +168,8 @@
             "gridSize": 1
         },
         {
-            "title": "ShakespeareGPT",
+            "visible": true,
+            "title": "ShakespeareGPT<br>",
             "links": [
                 {
                     "url": "https://github.com/TejasParse/language-model",
@@ -170,6 +192,7 @@
             "youtubeLink": ""
         },
         {
+            "visible": false,
             "title": "Pong DQN RL Agent",
             "links": [
                 {

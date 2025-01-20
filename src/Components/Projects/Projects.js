@@ -91,8 +91,8 @@ const Projects = () => {
   let getType = searchParams.get("q");
   console.log(getType, "Will it work now");
 
-  if(!(getType=="Web" || getType=="ML" || getType=="App") || getType==null) {
-    getType="Web";
+  if(!(getType=="Javascript" || getType=="Python" || getType=="App") || getType==null) {
+    getType="Javascript";
   }
 
   const [projectType, setprojectType] = useState(getType);
@@ -191,7 +191,7 @@ const Projects = () => {
       <div className=''>
         <div className='grid grid-cols-12 gap-3'>
           {
-            ProjectsData["ML"].map((elm, index) => {
+            ProjectsData["Python"].filter((project)=> project.visible).map((elm, index) => {
               return (
                 <div className='col-span-12 md:col-span-6 lg:col-span-4 border-2 border-black bg-light-brown-bg text-white text-center font-semibold'>
                   <div >
@@ -381,7 +381,7 @@ const Projects = () => {
       <div className=''>
         <div className='grid grid-cols-12 gap-3'>
           {
-            ProjectsData["Web"].map((elm, index) => {
+            ProjectsData["Javascript"].map((elm, index) => {
               return (
                 <div className='col-span-12 md:col-span-4 border-2 border-black bg-light-brown-bg text-white text-center font-semibold'>
                   <div >
@@ -439,16 +439,16 @@ const Projects = () => {
         <div className="flex flex-row justify-between">
           <h1 className="text-3xl font-bold text-light-brown-bg">Projects</h1>
           <div className="bg-brown-bg px-2 rounded-lg flex flex-row justify-center content-center">
-            <button className={`py-1 px-2 my-2 rounded-s-lg font-medium ${projectType == "Web" ? selectedStyle : notSelectedStyle}`} onClick={() => setprojectType("Web")}>Web</button>
-            <button className={`py-1 px-2 my-2 font-medium ${projectType == "ML" ? selectedStyle : notSelectedStyle}`} onClick={() => setprojectType("ML")}>ML</button>
+            <button className={`py-1 px-2 my-2 rounded-s-lg font-medium ${projectType == "Javascript" ? selectedStyle : notSelectedStyle}`} onClick={() => setprojectType("Javascript")}>Javascript</button>
+            <button className={`py-1 px-2 my-2 font-medium ${projectType == "Python" ? selectedStyle : notSelectedStyle}`} onClick={() => setprojectType("Python")}>Python</button>
             <button className={`py-1 px-2 my-2 font-medium ${projectType == "App" ? selectedStyle : notSelectedStyle}`} onClick={() => setprojectType("App")}>App</button>
             {/* <button className={`py-1 px-2 my-2 rounded-e-lg font-medium ${projectType == "Test" ? selectedStyle : notSelectedStyle}`} onClick={() => setprojectType("Test")}>Test</button> */}
           </div>
         </div>
       </div>
 
-      {projectType == "ML" && <MlProjects />}
-      {projectType == "Web" && <WebProjects />}
+      {projectType == "Python" && <MlProjects />}
+      {projectType == "Javascript" && <WebProjects />}
       {projectType == "App" && <AppProjects />}
       {/* {projectType == "Test" && <TestTemplates />} */}
 
