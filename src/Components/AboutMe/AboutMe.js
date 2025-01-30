@@ -10,7 +10,7 @@ const AboutMe = (props) => {
         Tejas Ajay <span className="text-brown-bg">Parse</span>
       </h1>
       <h1 className="text-xl font-bold pb-5 md:pb-10">
-        Hyderabad, IND{" "}
+        Tempe, AZ{" "}
         <span className="text-brown-bg">tparse21@gmail.com</span>
       </h1>
       <div className="md:text-lg mb-3 md:mb-1">
