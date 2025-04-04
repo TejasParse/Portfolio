@@ -21,6 +21,8 @@ import azure from "./icons/azure.svg";
 import github from "./icons/github_icon.png"
 import typescript from "./icons/typescript.png"
 import postgres from "./icons/postgre.png"
+import aws from "./icons/aws.webp"
+import numpy from "./icons/numpy.webp"
 
 const Skills = () => {
 
@@ -251,6 +253,15 @@ const Skills = () => {
                   <PartialStars />
                 </div>
               </div>
+              <div className="flex flex-row justify-between mb-2">
+                <div className="flex flex-row gap-2">
+                  <img src={numpy} alt="" style={{ width: "25px" }} />
+                  <span>Numpy</span>
+                </div>
+                <div>
+                  <PartialStars />
+                </div>
+              </div>
             </div>
           </div>
           <div>
@@ -258,6 +269,15 @@ const Skills = () => {
               Developer Tools
             </div>
             <div className="px-2">
+              <div className="flex flex-row justify-between mb-2">
+                <div className="flex flex-row gap-2">
+                  <img src={aws} alt="" style={{ width: "20px" }} />
+                  <span>AWS</span>
+                </div>
+                <div>
+                  <FullStars />
+                </div>
+              </div>
               <div className="flex flex-row justify-between mb-2">
                 <div className="flex flex-row gap-2">
                   <img src={mongodb} alt="" style={{ width: "20px" }} />

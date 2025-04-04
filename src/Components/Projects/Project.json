@@ -1,43 +1,34 @@
 {
     "Javascript": [
         {
-            "title": "Farmers Producer Organization(FPO) Portal (SIH'23 &#127942;)!",
+            "title": "Distributed Cloud Image Recognition with Manual Autoscaler",
             "links": [
                 {
-                    "url": "https://git-clone-frontend.vercel.app/",
-                    "text": "Try it",
-                    "bg_color": "blue-600"
-                },
-                {
-                    "url": "https://github.com/TejasParse/git-clone-backend-sih",
-                    "text": "Backend",
-                    "bg_color": "slate-700"
-                },
-                {
-                    "url": "https://github.com/TejasParse/git-clone-frontend-sih",
-                    "text": "Frontend",
+                    "url": "https://github.com/TejasParse/cloud-project-autoscaler/tree/master",
+                    "text": "Github",
                     "bg_color": "slate-700"
                 }
-
             ],
             "images": [
-                {"url":"/web/fpoportal/adminpage.png", "caption": "Admin Panel for Govt Officer"},
-                {"url":"/web/fpoportal/homepage.png", "caption": "Homepage"},
-                {"url":"/web/fpoportal/servicepage.png", "caption": "Service Listing Page"},
-                {"url":"/web/fpoportal/userpage.png", "caption": "Dashboard for User Investments"},
-                {"url":"/web/fpoportal/wdcPage.png", "caption": "WDC Page"}
+                {"url":"/web/autoscaler/architecture.png", "caption": "Architecture of the Project"}
             ],
-            "thumbnail": "/web/fpoportal.png",
+            "thumbnail": "/web/autoscaler.png",
             "techUsed": [
-                {"url":"/tech/react.png", "caption": "ReactJs - Used for Frontend"},
-                {"url":"/tech/node.png", "caption": "NodeJs - Used for Backend"},
-                {"url":"/tech/dialog.jpeg", "caption": "Dialogflow - Used for Chatbot"},
-                {"url":"/tech/mongodb.png", "caption": "MongoDB - Used for Database"}
+                {"url":"/tech/py_icon.png", "caption": "Python - Used for auto-scaler and image processing"},
+                {"url":"/tech/fastapi.png", "caption": "FastAPI - Used for backend"},
+                {"url":"/tech/aws.png", "caption": "AWS - Cloud Provider used to host the API"}
             ],
-            "description": ["Winning Project of Smart India Hackathon 2023", "Contributed to the Winning Team at Smart India Hackathon 2023, actively involved in developing an analytical portal for comparison of FPOs, coupled with a marketplace for income diversification","Implemented a Smart Voice-based Multilingual NLP Chatbot using ReactJs (Frontend) and Nodejs (Backend), alongside Dialogflow for Text Chatbot, and MongoDB for efficient data management"],
-            "gridSize": "2"
+            "description": [
+                "Built a distributed image processing system using AWS S3, SQS, and EC2, enabling scalable and efficient task execution.",
+                "Developed a FastAPI server to handle asynchronous uploads, queue requests, and manage responses, reducing processing latency.",
+                "Implemented an EC2 auto-scaler to dynamically start/stop instances based on demand, optimizing cost and resource utilization.",
+                "Please go through the Github Readme for detailed explanation and project setup"
+            ],
+            "gridSize": "2",
+            "visible": true
         },
         {
+            "visible": true,
             "title": "Pet Sanctum - Pet Adoption and Listing!",
             "links": [
                 {
@@ -79,6 +70,7 @@
             "gridSize": "2"
         },
         {
+            "visible": true,
             "title": "UNO Multiplayer - A Socket Symphony",
             "links": [
                 {
@@ -114,8 +106,45 @@
                 "Enhanced user interaction with integrated chatbox functionality and a visually appealing user interface crafted using Tailwind CSS and Framer Motion."
             ],
             "gridSize": "2"
-        }
+        },
+        {
+            "title": "Farmers Producer Organization(FPO) Portal (SIH'23 &#127942;)!",
+            "links": [
+                {
+                    "url": "https://git-clone-frontend.vercel.app/",
+                    "text": "Try it",
+                    "bg_color": "blue-600"
+                },
+                {
+                    "url": "https://github.com/TejasParse/git-clone-backend-sih",
+                    "text": "Backend",
+                    "bg_color": "slate-700"
+                },
+                {
+                    "url": "https://github.com/TejasParse/git-clone-frontend-sih",
+                    "text": "Frontend",
+                    "bg_color": "slate-700"
+                }
 
+            ],
+            "images": [
+                {"url":"/web/fpoportal/adminpage.png", "caption": "Admin Panel for Govt Officer"},
+                {"url":"/web/fpoportal/homepage.png", "caption": "Homepage"},
+                {"url":"/web/fpoportal/servicepage.png", "caption": "Service Listing Page"},
+                {"url":"/web/fpoportal/userpage.png", "caption": "Dashboard for User Investments"},
+                {"url":"/web/fpoportal/wdcPage.png", "caption": "WDC Page"}
+            ],
+            "thumbnail": "/web/fpoportal.png",
+            "techUsed": [
+                {"url":"/tech/react.png", "caption": "ReactJs - Used for Frontend"},
+                {"url":"/tech/node.png", "caption": "NodeJs - Used for Backend"},
+                {"url":"/tech/dialog.jpeg", "caption": "Dialogflow - Used for Chatbot"},
+                {"url":"/tech/mongodb.png", "caption": "MongoDB - Used for Database"}
+            ],
+            "description": ["Winning Project of Smart India Hackathon 2023", "Contributed to the Winning Team at Smart India Hackathon 2023, actively involved in developing an analytical portal for comparison of FPOs, coupled with a marketplace for income diversification","Implemented a Smart Voice-based Multilingual NLP Chatbot using ReactJs (Frontend) and Nodejs (Backend), alongside Dialogflow for Text Chatbot, and MongoDB for efficient data management"],
+            "gridSize": "2",
+            "visible": false
+        }
     ],
     "Python": [
         {
@@ -141,6 +170,62 @@
         },
         {
             "visible": true,
+            "title": "Benchmarking LLMs & Creating Auto-Evaluator Agent",
+            "links": [
+                {
+                    "url": "https://drive.google.com/file/d/1nX9JLAeOJw6r0ApDnVk91uGNOcCNQRwH/view?usp=sharing",
+                    "text": "Report",
+                    "bg_color": "slate-700"
+                }
+            ],
+            "images": [],
+            "thumbnail": "/ml/benchmark.png",
+            "techUsed": [
+                {"url":"/tech/py_icon.png", "caption": "Python - Language to automate evaluation of LLMs on datasets"},
+                {"url":"/tech/gpt.png", "caption": "ChatGPT - Utilized for benchmarking datasets and developing auto-evaluator agent"},
+                {"url":"/tech/meta.png", "caption": "LLAMA - Utilized for benchmarking datasets"}
+            ],
+            "description": [
+                "Evaluated and compared logical reasoning performance of LLaMA  and ChatGPT using benchmark datasets like LogiQA and ARCT.",
+                "Developed an error taxonomy to categorize reasoning failures, providing insights for improving reasoning chains in LLMs.",
+                "Created an auto-evaluator LLM agent, achieving 81.98% accuracy in categorizing reasoning errors based on the defined taxonomy.",
+                "Please go through the report for detailed information"
+            ],
+            "gridSize": 1
+        },
+        {
+            "visible": true,
+            "title": "Analysis of Driver Behavior on Restaurant Discounts",
+            "links": [
+                {
+                    "url": "https://github.com/TejasParse/driver-behaviour-analysis/blob/master/S20200010209_IndustryReport.pdf",
+                    "text": "Report",
+                    "bg_color": "blue-600"
+                },
+                {
+                    "url": "https://github.com/TejasParse/driver-behaviour-analysis",
+                    "text": "Github",
+                    "bg_color": "slate-700"
+                }
+
+            ],
+            "images": [],
+            "thumbnail": "/ml/driver_analysis.png",
+            "techUsed": [
+                {"url":"/tech/py_icon.png", "caption": "Python - Used as programming language"},
+                {"url":"/tech/pandas.svg", "caption": "Pandas - Used for handling datasets"},
+                {"url":"/tech/scikit.png", "caption": "Scikit - Used for ML Models"}
+            ],
+            "description": [
+                "Trained 15 predictive models using Python, Pandas, NumPy, and scikit-learn to analyze offer acceptance behavior. ",
+                "Conducted EDA to identify key features and trained classifiers, optimizing model performance across 27 features.",
+                "Gained insights into predictive modeling, evaluating top 7 classifiers to understand decision-making in real scenarios.",
+                "Please go through the report for detailed anaylsis"
+            ],
+            "gridSize": 1
+        },
+        {
+            "visible": false,
             "title": "Devanagari Handwritten Digits Recognition<br>",
             "links": [
                 {
@@ -168,7 +253,7 @@
             "gridSize": 1
         },
         {
-            "visible": true,
+            "visible": false,
             "title": "ShakespeareGPT<br>",
             "links": [
                 {
@@ -221,6 +306,6 @@
             "gridSize": 1,
             "youtubeLink": ""
         }
-
+        
     ]
 }

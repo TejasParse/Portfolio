@@ -31,13 +31,16 @@ const Experience = () => {
           <div className="p-4 md:font-md">
             <ul className="list-disc">
               <li>
-                Working as a part-time software developer at Psych for Life under the Department of Psychology, focusing on <span className="font-bold">MERN stack.</span>
+                Developed reusable UI components in <b>React.js</b> and <b>TypeScript</b>, forming the foundational building blocks for interactive learning lessons.
               </li>
               <li>
-                Developing reusable components that form the foundational building blocks for creating interactive learning lessons.
+                Reviewed Github PRs, identifying critical bugs and optimizing code performance while enforcing best practices in code quality.
               </li>
               <li>
-                Identified and resolved critical, hard-to-detect bugs that caused website crashes, while also reviewing pull requests.
+                Created new schemas and optimized existing schemas in MongoDB, while improving server-side logic in <b>Node.js</b> and <b>Express.js</b>.
+              </li>
+              <li>
+                Deployed and maintained application services on <b>AWS (EC2, S3)</b> and containerized components using Docker for better scalability.
               </li>
             </ul>
           </div>
