@@ -124,7 +124,7 @@ const Projects = () => {
                                 href={lin.url}
                                 target="_blank"
                               >
-                                <button className={`text-white bg-${lin.bg_color} p-2 py-1 rounded-md me-2`}>
+                                <button className={`text-white bg-slate-600 p-2 py-1 rounded-md me-2`}>
                                   {lin.text}
                                 </button>
                               </a>
@@ -213,7 +213,7 @@ const Projects = () => {
                                 href={lin.url}
                                 target="_blank"
                               >
-                                <button className={`text-white bg-${lin.bg_color} p-2 py-1 rounded-md me-2`}>
+                                <button className={`text-white bg-slate-600 p-2 py-1 rounded-md me-2`}>
                                   {lin.text}
                                 </button>
                               </a>
