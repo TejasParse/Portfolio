@@ -31,13 +31,13 @@ const Experience = () => {
           <div className="p-4 md:font-md">
             <ul className="list-disc">
               <li>
-                Developed reusable UI components in <b>React.js</b> and <b>TypeScript</b>, forming the foundational building blocks for interactive learning lessons.
+                Developed reusable UI components in <b>React.js</b> and <b>TypeScript</b>, reducing content managers’ lesson development time by <b>40%</b>.
               </li>
               <li>
-                Reviewed Github PRs, identifying critical bugs and optimizing code performance while enforcing best practices in code quality.
+                Reviewed <b>40+ Github PRs</b>, identifying critical bugs including <b>8</b> that <b>caused website crashes</b> while enforcing best practices in code quality.
               </li>
               <li>
-                Created new schemas and optimized existing schemas in MongoDB, while improving server-side logic in <b>Node.js</b> and <b>Express.js</b>.
+                Replaced <b>JavaScript</b> logic in the <b>Node.js</b> backend with optimized <b>MongoDB</b> aggregation pipelines, <b>reducing query time</b> by <b>31%</b>.
               </li>
               <li>
                 Deployed and maintained application services on <b>AWS (EC2, S3)</b> and containerized components using Docker for better scalability.
@@ -94,17 +94,13 @@ const Experience = () => {
           <div className="p-4 md:font-md">
             <ul className="list-disc">
               <li>
-                Collaborated on the company’s{" "}
-                <span className="font-bold">ReactJs Micro Frontend</span>{" "}
-                architecture and developed several modules, including the
-                inventory management module of their supply chain suite.
+                <span className="font-bold">Migrated</span> Kafka Events to Azure Event Hubs, <span className="font-bold">reducing latency by 19%</span> in inter-database synchronization.
+              </li>
+              <li>
+                Owned and developed inventory management repository in a <b>React.js micro frontend</b> architecture consisting of <b>11 repositories</b>.
               </li>
               <li>
                 Responsible for engineering <span className="font-bold">20+ RESTful endpoints</span> within the <span className="font-bold">Nodejs</span> backend microservice architecture.
-              </li>
-              <li>
-                <span className="font-bold">Migrated</span> Kafka Events to Azure Event Hubs, <span className="font-bold">reducing latency by 19%</span>, and automated database synchronization with MongoDB triggers.
-
               </li>
             </ul>
           </div>
@@ -128,7 +124,7 @@ const Experience = () => {
           <div className="p-4 md:font-md">
             <ul className="list-disc">
               <li>
-                Built 50+ GIF processing tools for the company on the front end.
+                Crafted <b>50+ GIF processing tools</b> like background removal, blur effects, and sprite sheet generation using <b>JavaScript</b> and <b>HTML Canvas</b>.
               </li>
               <li>
                 Used Jekyll to generate the website and{" "}
