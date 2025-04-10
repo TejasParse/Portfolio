@@ -25,10 +25,10 @@ const Education = () => {
           <h1 className="md:text-lg">Master of Science in Computer Science</h1>
           <h1 className="md:text-lg">August 2024 - May 2026</h1>
         </div>
-        {/* <div className="flex flex-row justify-between">
-          <h1 className="md:text-lg italic">Specialization in AI & ML</h1>
-          <h1 className="md:text-lg italic font-semibold">GPA: 9.30</h1>
-        </div> */}
+        <div className="flex flex-row justify-between">
+          <h1 className="md:text-lg italic"></h1>
+          <h1 className="md:text-lg italic font-semibold">GPA: 4/4</h1>
+        </div>
         <div className="mt-1">
           <div className="md:text-lg font-medium">Coursework:</div>
           <div className="md:text-lg">
@@ -52,7 +52,7 @@ const Education = () => {
         </div>
         <div className="flex flex-row justify-between">
           <h1 className="md:text-lg italic">Specialization in AI & ML</h1>
-          <h1 className="md:text-lg italic font-semibold">GPA: 9.30</h1>
+          <h1 className="md:text-lg italic font-semibold">GPA: 9.30/10</h1>
         </div>
         <div className="mt-2">
           <div className="md:text-lg font-medium">Coursework:</div>
