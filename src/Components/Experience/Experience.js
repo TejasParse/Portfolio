@@ -4,6 +4,7 @@ import settyl from "./icons/settyl.jpg";
 import appscms from "./icons/appscms.png";
 import datstek from "./icons/datstek.webp";
 import psych from "./icons/psych.webp";
+import walnuted from "./icons/walnuted.png";
 
 const Experience = () => {
   return (
@@ -12,6 +13,36 @@ const Experience = () => {
         <h1 className="text-xl md:text-3xl font-bold text-light-brown-bg">Experience</h1>
       </div>
       <div className='overflow-scroll'>
+        <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2 mb-6">
+          <div className="md:flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
+            <div className="flex flex-row justify-start gap-2 items-center">
+              <img
+                className="w-[30px] h-[30px]"
+                src={walnuted}
+                alt="Walnuted AI"
+              />
+              <div className="md:text-xl font-bold">
+                Software Developer Intern @ WalnutedAI
+              </div>
+            </div>
+            <div className="md:text-xl text-black font-semibold">
+              June 2025 - Present
+            </div>
+          </div>
+          <div className="p-4 md:font-md">
+            <ul className="list-disc">
+              <li>
+                Automated <b>multi-repo CI/CD</b> with <b>AWS Copilot</b> and <b>GitHub Actions</b>, eliminating manual effort and accelerating ML service delivery.
+              </li>
+              <li>
+                Refactored monolithic <b>Next.js</b> codebase into separate frontend and <b>FastAPI</b> backend, improving scalability and development velocity.
+              </li>
+              <li>
+                Built backend services with <b>FastAPI</b> and <b>Supabase</b> to power a college application chatbot platform with robust CRUD capabilities.
+              </li>
+            </ul>
+          </div>
+        </div>
         <div className="border-x-4 border-x-brown-bg border-b-4 border-b-brown-bg px-2 mb-6">
           <div className="md:flex flex-row justify-between border-b-2 text-light-brown-bg pb-2">
             <div className="flex flex-row justify-start gap-2 items-center">
@@ -94,13 +125,13 @@ const Experience = () => {
           <div className="p-4 md:font-md">
             <ul className="list-disc">
               <li>
-                <span className="font-bold">Migrated</span> Kafka Events to Azure Event Hubs, <span className="font-bold">reducing latency by 19%</span> in inter-database synchronization.
+                Migrated <b>Kafka Events</b> to <b>Azure Event Hubs</b>, reducing latency by <b>19%</b> in inter-database synchronization.
               </li>
               <li>
-                Owned and developed inventory management repository in a <b>React.js micro frontend</b> architecture consisting of <b>11 repositories</b>.
+                Maintained complex <b>multi-database Node.js backend</b> services while delivering features in an <b>Agile</b> team using <b>Jira</b> for sprint planning.
               </li>
               <li>
-                Responsible for engineering <span className="font-bold">20+ RESTful endpoints</span> within the <span className="font-bold">Nodejs</span> backend microservice architecture.
+                Collaborated with a team of <b>10 developers, owned 3 micro frontend repos, mentored an intern,</b> and <b>led</b> knowledge transfer sessions.
               </li>
             </ul>
           </div>
